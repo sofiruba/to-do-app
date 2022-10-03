@@ -20,15 +20,15 @@ export default function App() {
   }
 
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.content} >
+    <View style={styles.container}>
+      <View style={styles.content} >
         
         <Form props={{ setTodo, todo }}></Form>
         <List props={{ todo, done, complete_task, uncomplete_task }}></List>
-        </ScrollView>
+        </View>
 
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </View>
   );
 }
 

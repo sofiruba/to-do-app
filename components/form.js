@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         borderRadius: 10,
         marginBottom: '2%',
-        height: '30%',
+        width: 100
     },
     button:{
         overflow: 'hidden',
